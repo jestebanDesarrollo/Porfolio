@@ -1,0 +1,53 @@
+.conteiner{
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    transform: traslate(-50%, -50%);
+}
+
+svg{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+    transition: .3s ease;
+}
+
+.bi-linkedin:hover{
+    background-color: #0E76A8;
+    color: white;
+    box-shadow: 0 0 15px  #0E76A8,
+                0 0 45px  #0E76A8,
+                0 0 75px  #0E76A8,
+                0 0 115px #0E76A8;
+}
+
+.bi-github:hover{
+    background-color: #572364;
+    color: white;
+    box-shadow: 0 0 15px  #572364,
+                0 0 45px  #572364,
+                0 0 75px  #572364,
+                0 0 115px #572364;
+}
+
+.bi-file-earmark-medical-fill:hover{
+    background-color: #14171A;
+    color: white;
+    box-shadow: 0 0 15px  #14171A,
+                0 0 45px  #14171A,
+                0 0 75px  #14171A,
+                0 0 115px #14171A;
+}
+
+.bi-whatsapp:hover{
+    background-color: #25d366;
+    color: white;
+    box-shadow: 0 0 15px  #25d366,
+                0 0 45px  #25d366,
+                0 0 75px  #25d366,
+                0 0 115px #25d366;
+}
